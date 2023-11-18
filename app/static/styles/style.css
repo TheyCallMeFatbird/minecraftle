@@ -49,10 +49,13 @@ header {
 
 h1 {
   margin: 0;
-  font-size: 3em;
   font-size: min(3em, 10vw);
   font-family: Minecrafter-Cracked;
+  background-image: url("/static/images/Minecraftle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
 
 h2 {
   text-align: center;
